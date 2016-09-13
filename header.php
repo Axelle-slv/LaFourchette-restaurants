@@ -1,11 +1,11 @@
-	<header class="container-fluid">
-		<div id="header-index">
-		</div>
 
-		<div id="header-logo">
-		</div>
-		
-		<nav id="menu-navigation">
-			
-		</nav>
-	</header>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+	<div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img alt="La Fourchette | Restaurants gastronomique" src="...">
+      </a>
+    </div>
+
+  </div>
+</nav>
