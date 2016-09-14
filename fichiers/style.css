@@ -30,7 +30,8 @@ hr {
 /* HEADER */
 #img-header-index,
 #next-opening,
-#who-hook {
+#who-hook,
+#contact-hook {
 	background-image: url('images/legumes-bio-frais-restaurant-la-fourchette.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -61,7 +62,8 @@ hr {
 
 #header-logo h1 span,
 #who-hook h1 span,
-.hook-sentence h1 span  {
+.hook-sentence h1 span,
+#contact-hook h1 span  {
 	color: #FFC800;
 }
 
@@ -75,7 +77,8 @@ hr {
  #founders h1,
  #next-opening h1,
  #brand h1,
- #products h1 {
+ #products h1,
+ #contact-form h1{
  	color: #ffffff;
  	font-size: 2.2em;
  	text-align: center;
@@ -87,7 +90,8 @@ hr {
   #founders h2,
   #next-opening h2,
   #brand h2,
-  #products h2 {
+  #products h2,
+  #contact-form h2 {
   	color: #ffffff;
  	  font-size: 1.2em;
  	  text-align: center;
@@ -110,8 +114,9 @@ hr {
 #hook-index {
 	background-image: url('images/femme-restaurant-la-fourchette.jpg');
 }
+
 .hook-sentence {
-	background-repeat: no-repeat;
+	  background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 200px;
@@ -128,7 +133,8 @@ hr {
 
  /*BANDEAU 3 - FOUNDERS*/
 
- #founders {
+ #founders,
+ #contact-form {
  	background-image: url('images/planche-bois-la-fourchette-restaurant.png');
  	background-repeat: repeat;
  	overflow: hidden;
@@ -138,12 +144,15 @@ hr {
  #founders h2,
  #founders h3,
  #products h1,
- #products h2 {
+ #products h2,
+ #contact-form h1,
+ #contact-form h2 {
   	color:#141414;
  }
 
  #founders hr,
- #products hr {
+ #products hr,
+ #contact-form hr {
     border: 1px solid #141414;
     color: #141414;
  }
@@ -179,7 +188,7 @@ hr {
  }
 
  #next-opening hr {
- 	border: 1px solid #ffffff;
+ 	  border: 1px solid #ffffff;
     color: #FFffff;
  }
 
@@ -189,12 +198,13 @@ hr {
 
   /*BANDEAU 1 - WHO HOOK*/
 
-  #who-hook {
+ #who-hook {
     background-image: url('images/table-restaurant-la-fourchette-presentation.jpg');
     height: 500px;
   }
 
-  #who-hook h1 {
+  #who-hook h1,
+  #contact-hook h1 {
     color: #ffffff;
     text-align: center;
     font-size: 2.7em;
@@ -202,7 +212,8 @@ hr {
     padding-top: 220px;
   }
 
-  #who-hook img {
+  #who-hook img,
+  #contact-hook img {
     display: block;
     margin: 0 auto;
     width: 100px;
@@ -253,6 +264,37 @@ hr {
     font-size: 0.8em;
   }
 
-/**//**//**//**/
-/*PAGE | CONTACT*/
-/**//**//**//**/
+   /**//**//**//**/
+   /*PAGE | CONTACT*/
+   /**//**//**//**/
+
+   /*BANDEAU 1 | CONTACT HOOK*/
+  #contact-hook {
+    background-image: url('images/couple-restaurant-la-fourchette-contact.jpg');
+    height: 500px;
+  }
+   /*BANDEAU 2 | FRANCHISE SENTENCE*/
+  #franchise-contact-sentence {
+    background-color: #141414;
+  }
+
+  #franchise-contact-sentence h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.5em;
+    color: #ffffff;
+    padding: 10px 0 15px 0;
+  }
+
+  #franchise-contact-sentence h1 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+  }
+
+  #franchise-contact-sentence h1 a:hover {
+    color: #FFC800;
+  }
+
+   /*BANDEAU 3 - CONTACT FORM */

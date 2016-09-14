@@ -15,16 +15,30 @@
 
  <body>
 
- 	<php include ('header.php'); ?>
+ 	<!--<?php include ('header.php'); ?> -->
  
-	<section class="container-fluid" id="who-hook">
+	<header class="container-fluid" id="contact-hook">
 		<div class="container">
-			<h1>Notre leitmotiv, <span><strong>du local</strong></span> dans vos assiettes.</h1>
+			<h1>Partager, <span><strong>du local</strong></span> dans vos assiettes.</h1>
 			<img src="fichiers/images/frame-site-la-fourchette-white.png">
+		</div>
+	</header>
+ 	
+ 	<section class="container-fluid" id="franchise-contact-sentence">
+		<div class="container">
+			<h1>Des questions sur la franchise La Fourchette? C'est par <a href="presentation-restaurant.php">ici</a>.</h1>
+		</div>
+	</section>
+
+	<section class="container-fluid" id="contact-form">
+		<div class="container">
+			<h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+			<hr />
+			<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel posuere quam. Aliquam mollis ex. </h2>
 		</div>
 	</section>
  	
- 	<php include ('footer.php'); ?>
+ 	<?php include ('footer.php'); ?>
  
  </body>
 
