@@ -24,7 +24,7 @@
 	</header>
 
 
- 	<!--<?php include ('header.php'); ?> -->
+ 	<?php include ('header.php'); ?>
 
 	<section class="container-fluid" id="philosophie">
 		<div class="container">

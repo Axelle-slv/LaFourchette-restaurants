@@ -23,6 +23,28 @@ hr {
     color: #ffffff;
 }
 
+.navbar {
+  min-height: 56px
+}
+
+.navbar-default {
+  border: none;
+  background: rgba(255,255,255,0.9);
+}
+.navbar > .container-fluid .navbar-brand {
+  margin-left: 0;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.logo img {
+  width: 180px;
+  display: block;
+  margin-top: 3px;
+}
+
 /**//**//**//**/
 /*PAGE | INDEX*/
 /**//**//**//**/
@@ -298,3 +320,51 @@ hr {
   }
 
    /*BANDEAU 3 - CONTACT FORM */
+
+  #contact-form {
+  	padding-bottom: 50px;
+  }
+  
+  #formulaire-contact {
+  	background: rgba(255,255,255,0.4);
+  	padding: 40px 0;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    border: none;
+    display: block;
+    margin: 10px auto;
+    width: 70%;
+    font-size: 15px;
+  }
+  
+  #ville-contact {
+  	width: 70%;
+  	display: block;
+  	margin: 0 auto 15px auto;
+  }
+  
+  #ville-contact-q {
+    text-align: center;
+    font-weight: 300;
+    display: block;
+  }
+  
+  #submit {
+    display:block;
+    width: 165px;
+    margin: 30px auto 0 auto;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight:500;
+    background: #FFC800;
+    font-size: 1em;
+    line-height: 20px;
+    padding:5px;
+  }
+
+  #submit:hover {
+  	background: #141414;
+  }

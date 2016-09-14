@@ -32,9 +32,32 @@
 
 	<section class="container-fluid" id="contact-form">
 		<div class="container">
-			<h1>Lorem ipsum dolor sit amet, consectetur.</h1>
-			<hr />
-			<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel posuere quam. Aliquam mollis ex. </h2>
+			<div class="col-xs-12 col-md-10 col-md-offset-1">
+				<h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+				<hr />
+				<h2>Vous souhaitez contacter l'un de nos restaurant La Fourchette ? C'est simple, il vous suffit de le choisir parmi la liste ci-dessous et de remplir le formulaire.</h2>
+			</div>
+			<div class="col-xs-12 col-md-6 col-md-offset-3" id="formulaire-contact">
+				<form method="post">
+					<label for="ville-contact-q" id="ville-contact-q">Quel restaurant La Fourchette souhaitez-vous contacter ?</label>
+					<select name="ville-contact" id="ville-contact">
+						<option value="bordeau">Bordeau</option>
+						<option value="chartres">Chartres</option>
+						<option value="fontainebleau">Fontainebleau</option>
+						<option value="la-loupe">La Loupe</option>
+						<option value="lyon">Lyon</option>
+						<option value="toulouse">Toulouse</option>
+						<option value="siege-social">Siège social La Fourchette</option>
+					</select>
+	                	
+	                <input type="text" name="first-name" id="first-name" placeholder="Votre prénom*"/>
+	                <input type="text" name="last-name" id="last-name" placeholder="Votre nom*"/>
+	                <input type="tel" name="phone" id="phone-number" placeholder="Votre numéro de téléphone*"/>
+	                <input type="email" name="email" id="e-mail" placeholder="Votre e-mail"/>
+	                <textarea name="message" id="form-message" placeholder="Ecrivez votre message pour La Fourchette ici."></textarea>
+	                <input type="submit" name="submit-button" id="submit" value="Envoyer mon message">
+            	</form>
+			</div>
 		</div>
 	</section>
  	
