@@ -15,16 +15,16 @@
 
  <body>
 
-<header class="container-fluid" id="img-header-index">
-	<div id="header-logo" class="container">
-		<img src="fichiers/images/logolafourchettewhite.png">
-		<h1>La <span><strong>vraie</strong></span> bonne cuisine locale !</h1>
-	</div>
-	<div class="container"></div>
-</header>
+	<header class="container-fluid" id="img-header-index">
+		<div id="header-logo" class="container">
+			<img src="fichiers/images/logolafourchettewhite.png">
+			<h1>La <span><strong>vraie</strong></span> bonne cuisine locale !</h1>
+		</div>
+		<div class="container"></div>
+	</header>
 
 
- <?php include ('header.php'); ?>
+ 	<!--<?php include ('header.php'); ?> -->
 
 	<section class="container-fluid" id="philosophie">
 		<div class="container">
