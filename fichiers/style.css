@@ -62,6 +62,7 @@ hr {
 
 #header-logo h1 span,
 #who-hook h1 span,
+#franchise-hook h1 span,
 .hook-sentence h1 span,
 #franchise-hook  {
 	color: #FFC800;
@@ -75,6 +76,7 @@ hr {
 
  #philosophie h1, 
  #founders h1,
+ #franchise-content h1,
  #next-opening h1,
  #brand h1,
  #products h1 {
@@ -89,6 +91,7 @@ hr {
   #founders h2,
   #next-opening h2,
   #brand h2,
+  #franchise-content h2,
   #products h2 {
   	color: #ffffff;
  	  font-size: 1.2em;
@@ -140,12 +143,15 @@ hr {
  #founders h2,
  #founders h3,
  #products h1,
- #products h2 {
+ #products h2,
+ #franchise-content h1,
+ #franchise-content h2 {
   	color:#141414;
  }
 
  #founders hr,
- #products hr {
+ #products hr,
+ #franchise-content hr {
     border: 1px solid #141414;
     color: #141414;
  }
@@ -267,7 +273,22 @@ hr {
 /**//**//**//**//**//**//**//**//**//**//**//**/
 
 
+  /*BANDEAU 1 - LES ATOUTS DE LA FRANCHISE*/
+
 #franchise-hook {
   background-image: url('images/devenir-franchise-la-fourchette.jpg');
   height: 500px;
+}
+
+#franchise-content {
+  background-image: url('images/planche-bois-la-fourchette-restaurant.png');
+}
+
+  /*BANDEAU 2 - LES ATOUTS DE LA FRANCHISE*/
+#franchise-asset {
+  background-color: 
+}
+
+#icon-asset {
+  display: block;
 }

@@ -24,6 +24,49 @@
 		</div>
 	</header>
  
+ <section class="container-fluid" id="franchise-content">
+		<div class="container">
+			<h1>Les atouts de la franchise</h1>
+			<hr />
+			<h2>La franchise La Fourchette, une expérience humaine avant tout.</h2>
+			
+				<div class="col-xs-12 col-md-5 col-md-offset-1">
+					<p class="grey-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies ligula ligula, eu porttitor mi maximus eu. Curabitur pharetra velit ac feugiat faucibus. In nec mi neque. Fusce ut libero nunc. Curabitur placerat at sapien ut sollicitudin. Integer ultricies consequat mi vitae gravida. Ut vitae sagittis massa. Aenean vel commodo nisi. Suspendisse pretium non lacus et sollicitudin. Donec volutpat at tellus id vulputate. Sed tristique tortor ut justo finibus blandit. Phasellus egestas lorem ac purus tristique condimentum. Aenean et dui aliquet, accumsan quam vel, rutrum libero. Sed eget malesuada nisi. Aliquam et odio cursus, finibus ligula id, euismod ex. Curabitur convallis massa eget enim mattis, in tincidunt ante rutrum. </p>
+				</div>
+				
+				<div class="col-xs-12 col-md-5">
+					<p class="grey-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies ligula ligula, eu porttitor mi maximus eu. Curabitur pharetra velit ac feugiat faucibus. In nec mi neque. Fusce ut libero nunc. Curabitur placerat at sapien ut sollicitudin. Integer ultricies consequat mi vitae gravida. Ut vitae sagittis massa. Aenean vel commodo nisi. Suspendisse pretium non lacus et sollicitudin. Donec volutpat at tellus id vulputate. Sed tristique tortor ut justo finibus blandit. Phasellus egestas lorem ac purus tristique condimentum. Aenean et dui aliquet, accumsan quam vel, rutrum libero. Sed eget malesuada nisi. Aliquam et odio cursus, finibus ligula id, euismod ex. Curabitur convallis massa eget enim mattis, in tincidunt ante rutrum. </p>
+				</div>
+		</div>
+	</section>
+
+	<section class="container-fluid" id="franchise-asset">
+		<div class="container">
+			<h1>Les chiffres clés</h1>
+			<hr />
+			<h2></h2>
+
+				<div class="col-xs-10 col-xs-offset-1">
+					<div class="col-md-3 icon-asset">
+						<img src="">
+						<p></p>
+					</div>
+					<div class="col-md-3 icon-asset">
+						<img src="">
+						<p></p>
+					</div>
+					<div class="col-md-3 icon-asset">
+						<img src="">
+						<p></p>
+					</div>
+					<div class="col-md-3 icon-asset">
+						<img src="">
+						<p></p>
+					</div>
+				</div>
+		</div>
+	</section>
+
  <php include ('footer.php'); ?>
  
  </body>
