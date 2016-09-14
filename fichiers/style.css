@@ -30,6 +30,7 @@ hr {
 /* HEADER */
 #img-header-index,
 #next-opening,
+#franchise-hook,
 #who-hook {
 	background-image: url('images/legumes-bio-frais-restaurant-la-fourchette.jpg');
     background-repeat: no-repeat;
@@ -61,7 +62,8 @@ hr {
 
 #header-logo h1 span,
 #who-hook h1 span,
-.hook-sentence h1 span  {
+.hook-sentence h1 span,
+#franchise-hook  {
 	color: #FFC800;
 }
 
@@ -194,7 +196,8 @@ hr {
     height: 500px;
   }
 
-  #who-hook h1 {
+  #who-hook h1,
+  #franchise-hook h1 {
     color: #ffffff;
     text-align: center;
     font-size: 2.7em;
@@ -202,7 +205,8 @@ hr {
     padding-top: 220px;
   }
 
-  #who-hook img {
+  #who-hook img,
+  #franchise-hook img {
     display: block;
     margin: 0 auto;
     width: 100px;
@@ -256,3 +260,14 @@ hr {
 /**//**//**//**/
 /*PAGE | CONTACT*/
 /**//**//**//**/
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**/
+/*PAGE | DEVENIR FRANCHISE LA FOURCHETTE*/
+/**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+#franchise-hook {
+  background-image: url('images/devenir-franchise-la-fourchette.jpg');
+  height: 500px;
+}

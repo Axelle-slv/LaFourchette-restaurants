@@ -17,12 +17,12 @@
 
 <php include ('header.php'); ?>
 
-	<section class="container-fluid" id="who-hook">
+	<header class="container-fluid" id="who-hook">
 		<div class="container">
 			<h1>Notre leitmotiv, <span><strong>du local</strong></span> dans vos assiettes.</h1>
 			<img src="fichiers/images/frame-site-la-fourchette-white.png">
 		</div>
-	</section>
+	</header>
 
 	<section class="container-fluid" id="brand">
 		<div class="container">
