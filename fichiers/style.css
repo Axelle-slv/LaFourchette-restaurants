@@ -12,10 +12,6 @@ h1{
 	font-family: 'Dancing Script', cursive;
 }
 
-.container-fluid {
-	padding: 0;
-}
-
 hr {
     width: 30px;
     margin: 0 auto 20px auto;
@@ -23,27 +19,10 @@ hr {
     color: #ffffff;
 }
 
-.navbar {
-  min-height: 56px
-}
+/**//**//**//**/
+/*NAVBAR MENU*/
+/**//**//**//**/
 
-.navbar-default {
-  border: none;
-  background: rgba(255,255,255,0.9);
-}
-.navbar > .container-fluid .navbar-brand {
-  margin-left: 0;
-}
-
-.navbar-brand {
-  padding: 0;
-}
-
-.logo img {
-  width: 180px;
-  display: block;
-  margin-top: 3px;
-}
 
 /**//**//**//**/
 /*PAGE | INDEX*/
@@ -58,13 +37,15 @@ hr {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 800px;
+    height: 100vh;
     width: 100%;
+    overflow: hidden;
+    clear: both;
 }
 
 #header-logo {
 	width: 100%;
-	padding-top: 300px;
+	padding-top: 250px;
 }
 
 #header-logo img {
@@ -93,6 +74,8 @@ hr {
 
  #philosophie {
  	background-color: #141414;
+  overflow: hidden;
+  clear: both;
  }
 
  #philosophie h1, 
@@ -160,6 +143,7 @@ hr {
  	background-image: url('images/planche-bois-la-fourchette-restaurant.png');
  	background-repeat: repeat;
  	overflow: hidden;
+  clear: both;
  }
  
  #founders h1,
