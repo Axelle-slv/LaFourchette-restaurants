@@ -15,7 +15,7 @@
 
  <body>
 
- <php include ('header.php'); ?>
+ <?php include ('menu.php'); ?>
 
  <header class="container-fluid" id="franchise-hook">
 		<div class="container">
@@ -66,6 +66,30 @@
 				</div>
 		</div>
 	</section>
+
+	<section class="container-fluid" id="contact-form">
+			<div class="container">
+				<div class="col-xs-12 col-md-10 col-md-offset-1">
+					<h1>Envie de rejoindre la famille des restaurants La Fourchette ?</h1>
+					<hr />
+					<h2>Discutons autour d'un café de votre projet, mais tout d'abord merci de remplir le formulaire ci-dessous.</h2>
+				</div>
+				<div class="col-xs-12 col-md-6 col-md-offset-3" id="formulaire-contact">
+					<form method="post">
+		                <input type="text" name="first-name" id="first-name" placeholder="Votre prénom*"/>
+		                <input type="text" name="last-name" id="last-name" placeholder="Votre nom*"/>
+		                <input type="tel" name="phone" id="phone-number" placeholder="Votre numéro de téléphone*"/>
+		                <input type="text" name="email" id="e-mail" placeholder="Votre e-mail"/>
+		                <textarea name="message" id="form-message" placeholder="Avez-vous une experience en cuisine ? Decrivez-la en quelques mots.*"></textarea>
+		                <input type="text" name="apport" id="apport" placeholder="Avez-vous un apport personnel?*"/>
+		                <input type="text" name="apport" id="e-mail" placeholder="Dans quelle ville souhaitez-vous ouvrir un La Fourchette?"/>
+		                <input type="text" name="email" id="e-mail" placeholder="Avez-vous un emplacement?""/>
+		                <textarea name="message" id="form-message" placeholder="Ecrivez votre message pour La Fourchette ici."></textarea>
+		                <input type="submit" name="submit-button" id="submit" value="Envoyer mon message">
+	            	</form>
+				</div>
+			</div>
+		</section>
 
  <?php include ('footer.php'); ?>
  

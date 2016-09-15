@@ -437,7 +437,7 @@ hr {
   background-image: url('images/planche-bois-la-fourchette-restaurant.png');
 }
 
-  /*BANDEAU 2 - LES ATOUTS DE LA FRANCHISE*/
+  /*BANDEAU 2 - LES CHIFFRES CLES*/
 
 #franchise-asset {
   background-color: #000000;
@@ -484,6 +484,11 @@ hr {
   margin-right: 15px;
 }
 
+#call-to-action p {
+  text-align: center;
+  font-size: 0.8em;
+}
+
 #button-footer {
   display:block;
   width: 100px;
@@ -492,11 +497,12 @@ hr {
   color: #ffffff;
   font-weight:500;
   background: #FFC800;
-  font-size: 1em;
-  line-height: 20px;
+  font-size: 0.8em;
+  line-height: 10px;
   padding:5px;
   text-decoration: none;
   border: 0px;
+  margin: 0 auto;
   }
 
 #mentions-legales {
