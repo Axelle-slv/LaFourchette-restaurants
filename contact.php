@@ -41,7 +41,7 @@
 				<form method="post">
 					<label for="ville-contact-q" id="ville-contact-q">Quel restaurant La Fourchette souhaitez-vous contacter ?</label>
 					<select name="ville-contact" id="ville-contact">
-						<option value="bordeau">Bordeau</option>
+						<option value="bordeaux">Bordeaux</option>
 						<option value="chartres">Chartres</option>
 						<option value="fontainebleau">Fontainebleau</option>
 						<option value="la-loupe">La Loupe</option>

@@ -61,7 +61,6 @@ hr {
 
 /* HEADER */
 #img-header-index,
-#next-opening,
 #who-hook,
 #contact-hook,
 #franchise-hook,
@@ -192,6 +191,10 @@ hr {
   clear: both;
  }
  
+ #founders {
+  padding-bottom: 20px;
+ }
+
  #founders h1,
  #founders h2,
  #founders h3,
@@ -223,7 +226,15 @@ hr {
   margin: 0 auto;
   border: 5px solid #ffffff;
   border-radius: 135px;
-  width: 260px;
+  width: 220px;
+ }
+ 
+ .founder-name{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.3em;
+  display: block;
+  margin-bottom: 20px;
  }
  
  .grey-p {
@@ -232,21 +243,27 @@ hr {
 
  /*BANDEAU 4 - NEXT OPENING*/
 
- #next-opening{
- 	background-image: url('images/dessert-fruits-restaurant-la-fourchette.jpg');
- 	height: 500px;
+ #next-opening {
+ 	background-color: #FFFFFF;
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 50px;
  }
 
  #next-opening h1,
  #next-opening h2 {
- 	color: #FFffff;
+ 	color: #141414;
  }
 
  #next-opening hr {
- 	  border: 1px solid #ffffff;
-    color: #FFffff;
+ 	  border: 1px solid #141414;
+    color: #141414;
  }
 
+#carousel-example-generic h3 {
+  font-family: 'Dancing Script', cursive;
+}
+  
   /**//**//**//**//**//**//**//**//**//**//**//**/
   /*PAGE | PRESENTATION RESTAURANT LA FOURCHETTE*/
   /**//**//**//**//**//**//**//**//**//**//**//**/
@@ -425,6 +442,7 @@ hr {
 #franchise-asset {
   background-color: #000000;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 #icon-asset img {
