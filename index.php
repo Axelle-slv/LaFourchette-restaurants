@@ -17,14 +17,13 @@
 
 	<header class="container-fluid" id="img-header-index">
 		<div id="header-logo" class="container">
-			<img src="fichiers/images/logolafourchettewhite.png">
+			<img src="fichiers/images/logolafourchettewhite.png" alt="La Fourchette | Restaurant gastronomique" id="logo-fourchette">
 			<h1>La <span><strong>vraie</strong></span> bonne cuisine locale !</h1>
+			<a href="#index-navbar"><img src="fichiers/images/arrow-white.png" alt="Descendez pour découvrir le contenu de cette page." id="arrow"></a>
 		</div>
-		<div class="container"></div>
 	</header>
 
-
- 	<!--<?php include ('header.php'); ?> -->
+	<?php include ('header.php'); ?>
 
 	<section class="container-fluid" id="philosophie">
 		<div class="container">
@@ -50,7 +49,7 @@
 
 	<section class="container-fluid" id="founders">
 		<div class="container">
-			<h1>Les fondateurs de "La Fourchette".</h1>
+			<h1>Les fondateurs de La Fourchette.</h1>
 			<hr />
 			
 			<div class="col-xs-12">
@@ -89,9 +88,12 @@
 
  <?php include ('footer.php'); ?>
 
- </body>
-
+<!-- Import JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <!-- Bootstrap JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Our animation functions -->
+<script type="" src="fichiers/functions.js"></script>
 
+</body>
 </html>

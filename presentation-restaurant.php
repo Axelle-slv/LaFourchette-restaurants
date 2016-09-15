@@ -5,24 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Les restaurants gastronomiques La Fourchette travaillent en direct avec les producteurs locaux pour sélectionner les meilleurs produits et vous proposer des plats savoureux, originaux et colorés qui vous mettront l'eau à la bouche.">
 <title>Qui sommes-nous ? | La Fourchette | Restaurants gastronomiques</title>
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<!-- Our stylesheet -->
-<link rel="stylesheet" href="fichiers/style.css">
-<!-- Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Raleway:300,400,500" rel="stylesheet"> 
-</head>
+  <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Our stylesheet -->
+ <link rel="stylesheet" href="fichiers/style.css">
+  <!-- Fonts -->
+ <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Raleway:300,400,500" rel="stylesheet"> 
+ </head>
 
-<body>
+ <body>
 
-<php include ('header.php'); ?>
+	<?php include ('menu.php'); ?>
 
-	<section class="container-fluid" id="who-hook">
+	<header class="container-fluid" id="who-hook">
 		<div class="container">
 			<h1>Notre leitmotiv, <span><strong>du local</strong></span> dans vos assiettes.</h1>
 			<img src="fichiers/images/frame-site-la-fourchette-white.png">
 		</div>
-	</section>
+	</header>
 
 	<section class="container-fluid" id="brand">
 		<div class="container">
@@ -74,11 +74,12 @@
 		</div>
 	</section>
 
- <php include ('footer.php'); ?>
+ <?php include ('footer.php'); ?>
  
-</body>
-
+<!-- Import JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <!-- Bootstrap JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
 
 </html>
