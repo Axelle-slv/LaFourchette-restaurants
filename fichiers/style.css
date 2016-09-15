@@ -285,10 +285,60 @@ hr {
 }
 
   /*BANDEAU 2 - LES ATOUTS DE LA FRANCHISE*/
+
 #franchise-asset {
-  background-color: 
+  background-color: #000000;
 }
 
 #icon-asset {
   display: block;
 }
+
+  /**//**//**//**/
+  /*FOOTER*/
+  /**//**//**//**/
+
+#footer-global {
+  background-color: #141414;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer-global p {
+  color: #ffffff;
+}
+#footer-global a:hover {
+  text-decoration: none;
+}
+#footer-global button:hover {
+  color: #141414;
+}
+
+#logo-footer {
+  display: block;
+  height: 50px;
+}
+
+#button-footer {
+    display:block;
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-weight:500;
+    background: #FFC800;
+    font-size: 1em;
+    line-height: 20px;
+    padding:5px;
+    text-decoration: none;
+    border: 0px;
+  }
+
+#mentions-legales {
+  text-decoration: none;
+  color: #FFC800;
+}
+
+#button-footer:hover {
+    background: #ffffff;
+  }
