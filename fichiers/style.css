@@ -63,15 +63,17 @@ hr {
 #img-header-index,
 #next-opening,
 #who-hook,
-#contact-hook {
-	background-image: url('images/legumes-bio-frais-restaurant-la-fourchette.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    clear: both;
+#contact-hook,
+#franchise-hook,
+#who-hook {
+  background-image: url('images/legumes-bio-frais-restaurant-la-fourchette.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  clear: both;
 }
 
 #header-logo {
@@ -97,7 +99,10 @@ hr {
 #header-logo h1 span,
 #who-hook h1 span,
 .hook-sentence h1 span,
-#contact-hook h1 span  {
+#contact-hook h1 span,
+#franchise-hook h1 span,
+.hook-sentence h1 span,
+#franchise-hook  {
 	color: #FFC800;
 }
 
@@ -120,7 +125,9 @@ hr {
  #next-opening h1,
  #brand h1,
  #products h1,
- #contact-form h1{
+ #contact-form h1,
+ #franchise-content h1,
+ #franchise-asset h1 {
  	color: #ffffff;
  	font-size: 2.2em;
  	text-align: center;
@@ -133,7 +140,9 @@ hr {
   #next-opening h2,
   #brand h2,
   #products h2,
-  #contact-form h2 {
+  #contact-form h2,
+  #franchise-content h2,
+  #franchise-asset h2 {
   	color: #ffffff;
  	  font-size: 1.2em;
  	  text-align: center;
@@ -189,13 +198,16 @@ hr {
  #products h1,
  #products h2,
  #contact-form h1,
- #contact-form h2 {
+ #contact-form h2,
+ #franchise-content h1,
+ #franchise-content h2 {
   	color:#141414;
  }
 
  #founders hr,
  #products hr,
- #contact-form hr {
+ #contact-form hr,
+ #franchise-content hr {
     border: 1px solid #141414;
     color: #141414;
  }
@@ -247,7 +259,8 @@ hr {
   }
 
   #who-hook h1,
-  #contact-hook h1 {
+  #contact-hook h1,
+  #franchise-hook h1 {
     color: #ffffff;
     text-align: center;
     font-size: 2.7em;
@@ -256,7 +269,8 @@ hr {
   }
 
   #who-hook img,
-  #contact-hook img {
+  #contact-hook img,
+  #franchise-hook img {
     display: block;
     margin: 0 auto;
     width: 100px;
@@ -389,3 +403,90 @@ hr {
   #submit:hover {
   	background: #141414;
   }
+
+/**//**//**//**//**//**//**//**//**//**//**//**/
+/*PAGE | DEVENIR FRANCHISE LA FOURCHETTE*/
+/**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+  /*BANDEAU 1 - LES ATOUTS DE LA FRANCHISE*/
+
+#franchise-hook {
+  background-image: url('images/devenir-franchise-la-fourchette.jpg');
+  height: 500px;
+}
+
+#franchise-content {
+  background-image: url('images/planche-bois-la-fourchette-restaurant.png');
+}
+
+  /*BANDEAU 2 - LES ATOUTS DE LA FRANCHISE*/
+
+#franchise-asset {
+  background-color: #000000;
+  align-items: center;
+}
+
+#icon-asset img {
+  display: block;
+  height: 70px;
+  margin: 0 auto;
+}
+
+#icon-asset p {
+  text-align: center;
+  padding-top: 10px;
+  color: #ffffff;
+}
+
+  /**//**//**//**/
+  /*FOOTER*/
+  /**//**//**//**/
+
+#footer-global {
+  background-color: #141414;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer-global p {
+  color: #ffffff;
+}
+#footer-global a:hover {
+  text-decoration: none;
+}
+#footer-global button:hover {
+  color: #141414;
+}
+
+#logo-footer {
+  display: block;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+}
+
+#button-footer {
+  display:block;
+  width: 100px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight:500;
+  background: #FFC800;
+  font-size: 1em;
+  line-height: 20px;
+  padding:5px;
+  text-decoration: none;
+  border: 0px;
+  }
+
+#mentions-legales {
+  text-decoration: none;
+  color: #FFC800;
+}
+
+#button-footer:hover {
+    background: #ffffff;
+  }
+
