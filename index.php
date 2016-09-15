@@ -17,7 +17,7 @@
 
 	<header class="container-fluid" id="img-header-index">
 		<div id="header-logo" class="container">
-			<img src="fichiers/images/logolafourchettewhite.png">
+			<img src="fichiers/images/logolafourchettewhite.png" alt="La Fourchette | Restaurant gastronomique">
 			<h1>La <span><strong>vraie</strong></span> bonne cuisine locale !</h1>
 		</div>
 		<div class="container"></div>
@@ -88,7 +88,7 @@
 
  <?php include ('footer.php'); ?>
 
-<script type="text/javascript" src="fichiers/jquery-3.1.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
  <!-- Bootstrap JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 

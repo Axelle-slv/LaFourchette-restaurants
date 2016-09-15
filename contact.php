@@ -15,7 +15,7 @@
 
  <body>
 
- 	<!--<?php include ('header.php'); ?> -->
+ 	<?php include ('header.php'); ?>
  
 	<header class="container-fluid" id="contact-hook">
 		<div class="container">
