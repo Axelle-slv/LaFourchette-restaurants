@@ -76,10 +76,11 @@ hr {
 
  #philosophie h1, 
  #founders h1,
- #franchise-content h1,
  #next-opening h1,
  #brand h1,
- #products h1 {
+ #products h1,
+ #franchise-content h1,
+ #franchise-asset h1 {
  	color: #ffffff;
  	font-size: 2.2em;
  	text-align: center;
@@ -91,8 +92,9 @@ hr {
   #founders h2,
   #next-opening h2,
   #brand h2,
+  #products h2,
   #franchise-content h2,
-  #products h2 {
+  #franchise-asset h2 {
   	color: #ffffff;
  	  font-size: 1.2em;
  	  text-align: center;
@@ -288,10 +290,19 @@ hr {
 
 #franchise-asset {
   background-color: #000000;
+  align-items: center;
 }
 
-#icon-asset {
+#icon-asset img {
   display: block;
+  height: 70px;
+  margin: 0 auto;
+}
+
+#icon-asset p {
+  text-align: center;
+  padding-top: 10px;
+  color: #ffffff;
 }
 
   /**//**//**//**/
@@ -317,21 +328,23 @@ hr {
 #logo-footer {
   display: block;
   height: 50px;
+  margin-bottom: 10px;
+  margin-right: 15px;
 }
 
 #button-footer {
-    display:block;
-    width: 100px;
-    margin-bottom: 10px;
-    border-radius: 20px;
-    color: #ffffff;
-    font-weight:500;
-    background: #FFC800;
-    font-size: 1em;
-    line-height: 20px;
-    padding:5px;
-    text-decoration: none;
-    border: 0px;
+  display:block;
+  width: 100px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight:500;
+  background: #FFC800;
+  font-size: 1em;
+  line-height: 20px;
+  padding:5px;
+  text-decoration: none;
+  border: 0px;
   }
 
 #mentions-legales {
@@ -342,3 +355,10 @@ hr {
 #button-footer:hover {
     background: #ffffff;
   }
+
+@@media screen and (max-width: 640px) {
+
+  #call-to-action {
+  padding-left: 0;
+  }
+}

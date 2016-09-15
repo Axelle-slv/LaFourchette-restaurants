@@ -44,30 +44,30 @@
 		<div class="container">
 			<h1>Les chiffres clés</h1>
 			<hr />
-			<h2></h2>
+			<h2>Lorem Ipsum</h2>
 
 				<div class="col-xs-10 col-xs-offset-1">
-					<div class="col-md-3 icon-asset">
-						<img src="">
-						<p></p>
+					<div class="col-md-3" id="icon-asset">
+						<img src="fichiers/images/la-fourchette-developpement-fort.png">
+						<p>Une image de marque forte en plein developpement</p>
 					</div>
-					<div class="col-md-3 icon-asset">
-						<img src="">
-						<p></p>
+					<div class="col-md-3" id="icon-asset">
+						<img src="fichiers/images/la-fourchette-rentabilite.png">
+						<p>Une rentabilité rapide</p>
 					</div>
-					<div class="col-md-3 icon-asset">
-						<img src="">
-						<p></p>
+					<div class="col-md-3" id="icon-asset">
+						<img src="fichiers/images/icon-la-fourchette-reseau-fournisseur.png">
+						<p>Un large réseau de fournisseurs</p>
 					</div>
-					<div class="col-md-3 icon-asset">
-						<img src="">
-						<p></p>
+					<div class="col-md-3" id="icon-asset">
+						<img src="fichiers/images/la-fourchette-chef-recette-originale.png">
+						<p>Plus de 50 recettes de saison élaborées chaque année.</p>
 					</div>
 				</div>
 		</div>
 	</section>
 
- <php include ('footer.php'); ?>
+ <?php include ('footer.php'); ?>
  
  </body>
 
