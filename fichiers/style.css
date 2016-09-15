@@ -76,10 +76,10 @@ hr {
 
 #header-logo {
 	width: 100%;
-	padding-top: 250px;
+	padding-top: 240px;
 }
 
-#header-logo img {
+#header-logo #logo-fourchette {
 	width: 450px;
 	display: block;
 	margin: 0 auto;
@@ -99,6 +99,12 @@ hr {
 .hook-sentence h1 span,
 #contact-hook h1 span  {
 	color: #FFC800;
+}
+
+#arrow {
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 30px;
 }
 
  /*BANDEAU 1 - PHILOSOPHIE*/

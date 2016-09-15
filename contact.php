@@ -3,8 +3,8 @@
  <head>
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
- <meta name="description" content="Les restaurants gastronomiques La Fourchette vous accueillent tous les jours entre 11h et 00h dans une ambiance cosi et intimiste. Vous découvrirez des recettes gourmandes et originales cuisinées avec des produits locaux, bio et d'une qualité exceptionnelle qui raviront vos papilles.">
- <title>Contactez-nous | La Fourchette | Restaurants gastronomiques</title>
+ <meta name="description" content="Les restaurants gastronomiques La Fourchette répondent à vos questions. N'hésitez pas à nous contacter en utilisant ce formulaire, nous vous répondrons dans les plus brefs délais.">
+ <title>Nous contacter | La Fourchette | Restaurants gastronomiques</title>
   <!-- Bootstrap CSS -->
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- Our stylesheet -->
@@ -14,12 +14,12 @@
  </head>
 
  <body>
-
- 	<?php include ('header.php'); ?>
+ 
+ 	<?php include ('menu.php'); ?>
  
 	<header class="container-fluid" id="contact-hook">
 		<div class="container">
-			<h1>Partager, <span><strong>du local</strong></span> dans vos assiettes.</h1>
+			<h1>Avec nous, <span><strong>les goûts et les couleurs</strong></span> ça se discute !</h1>
 			<img src="fichiers/images/frame-site-la-fourchette-white.png">
 		</div>
 	</header>
@@ -63,6 +63,10 @@
  	
  	<?php include ('footer.php'); ?>
  
+<!-- Import JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
  </body>
 
  </html> 
