@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Les restaurants gastronomiques La Fourchette vous accueillent tous les jours entre 11h et 00h dans une ambiance cosi et intimiste. Vous découvrirez des recettes gourmandes et originales cuisinées avec des produits locaux, bio et d'une qualité exceptionnelle qui raviront vos papilles.">
- <title>Devenir franchisé | La Fourchette | Restaurants gastronomiques</title> 
+<title>Devenir franchisé | La Fourchette | Restaurants gastronomiques</title>
+<link rel="icon" type="image/png" href="fichiers/images/favico_la_fourchette_32x32.png" />
  <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
  <!-- Our stylesheet -->

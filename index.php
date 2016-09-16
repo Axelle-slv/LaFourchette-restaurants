@@ -5,6 +5,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <meta name="description" content="Les restaurants gastronomiques La Fourchette vous accueillent tous les jours entre 11h et 00h dans une ambiance cosi et intimiste. Vous découvrirez des recettes gourmandes et originales cuisinées avec des produits locaux, bio et d'une qualité exceptionnelle qui raviront vos papilles.">
  <title>La fourchette | Restaurants gastronomiques</title>
+ <link rel="icon" type="image/png" href="fichiers/images/favico_la_fourchette_32x32.png" />
   <!-- Bootstrap CSS -->
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- Our stylesheet -->
@@ -20,7 +21,7 @@
 		<div id="header-logo" class="container">
 			<img src="fichiers/images/logolafourchettewhite.png" alt="La Fourchette | Restaurant gastronomique" id="logo-fourchette">
 			<h1>La <span><strong>vraie</strong></span> bonne cuisine locale !</h1>
-			<a href="#index-navbar"><img src="fichiers/images/arrow-white.png" alt="Descendez pour découvrir le contenu de cette page." id="arrow"></a>
+			<a href="#index-navbar"><img src="fichiers/images/arrow-white.png" alt="Descendez pour découvrir le contenu de cette page." class="arrow"></a>
 		</div>
 	</header>
 
@@ -96,6 +97,9 @@
 			    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
 			    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
 			    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="10"></li>
 			  </ol>
 			 
 			  <!-- Wrapper for slides -->
@@ -149,7 +153,27 @@
 			      	<p>1 Place de la Bourse<br />31000 Toulouse</p>
 			      </div>
 			    </div>
-			  </div>
+
+			    <div class="item">
+			      <img src="fichiers/images/restaurant-la-fourchette-nantes.jpg" alt="Restaurant gastronomique La Fourchette à Nantes">
+			      <div class="carousel-caption">
+			      	<h3>Prochainement | La Fourchette Nantes</h3>
+			      </div>
+			    </div>
+
+				<div class="item">
+			      <img src="fichiers/images/restaurant-la-fourchette-montpellier.jpg" alt="Restaurant gastronomique La Fourchette à Montpellier">
+			      <div class="carousel-caption">
+			      	<h3>Prochainement | La Fourchette Montpellier</h3>
+			      </div>
+			    </div>
+
+				<div class="item">
+			      <img src="fichiers/images/restaurant-la-fourchette-grenoble.jpg" alt="Restaurant gastronomique La Fourchette à Grenoble">
+			      <div class="carousel-caption">
+			      	<h3>Prochainement | La Fourchette Grenoble</h3>
+			      </div>
+			    </div>
 			 
 			  <!-- Controls -->
 			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -160,9 +184,13 @@
 			  </a>
 			</div> <!-- Carousel -->
 		</div><!--End container-->
-	</section>
 
-	<section></section>
+		<div class="top">
+		<a href="#img-header-index">
+			<img src="fichiers/images/black-arrow.png" alt="Remonter en haut de la page" class="arrow">
+		</a>
+		</div>
+	</section>
 
  <?php include ('footer.php'); ?>
 

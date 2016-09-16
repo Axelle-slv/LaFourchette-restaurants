@@ -5,13 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Les restaurants gastronomiques La Fourchette travaillent en direct avec les producteurs locaux pour sélectionner les meilleurs produits et vous proposer des plats savoureux, originaux et colorés qui vous mettront l'eau à la bouche.">
 <title>Qui sommes-nous ? | La Fourchette | Restaurants gastronomiques</title>
-  <!-- Bootstrap CSS -->
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <!-- Our stylesheet -->
- <link rel="stylesheet" href="fichiers/style.css">
-  <!-- Fonts -->
- <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Raleway:300,400,500" rel="stylesheet"> 
- </head>
+<link rel="icon" type="image/png" href="fichiers/images/favico_la_fourchette_32x32.png" />
+ <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ <!-- Our stylesheet -->
+<link rel="stylesheet" href="fichiers/style.css">
+ <!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Raleway:300,400,500" rel="stylesheet"> 
+</head>
 
  <body>
 

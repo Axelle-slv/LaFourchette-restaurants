@@ -5,6 +5,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <meta name="description" content="Les restaurants gastronomiques La Fourchette répondent à vos questions. N'hésitez pas à nous contacter en utilisant ce formulaire, nous vous répondrons dans les plus brefs délais.">
  <title>Nous contacter | La Fourchette | Restaurants gastronomiques</title>
+ <link rel="icon" type="image/png" href="fichiers/images/favico_la_fourchette_32x32.png" />
   <!-- Bootstrap CSS -->
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- Our stylesheet -->
