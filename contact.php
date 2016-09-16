@@ -37,7 +37,12 @@
 				<hr />
 				<h2>Vous souhaitez contacter l'un de nos restaurant La Fourchette ? C'est simple, il vous suffit de le choisir parmi la liste ci-dessous et de remplir le formulaire.</h2>
 			</div>
-			<div class="col-xs-12 col-md-6 col-md-offset-3" id="formulaire-contact">
+
+			<div class="col-xs-12 col-md-6" id="maps">
+			<iframe src="https://www.google.com/maps/d/embed?mid=1a9mZ04NUVM3Yk4ThQtyVnW60oAo" width="100%" height="489px"></iframe>
+			</div>
+
+			<div class="col-xs-12 col-md-6" id="formulaire-contact">
 				<form method="post">
 					<label for="ville-contact-q" id="ville-contact-q">Quel restaurant La Fourchette souhaitez-vous contacter ?</label>
 					<select name="ville-contact" id="ville-contact">

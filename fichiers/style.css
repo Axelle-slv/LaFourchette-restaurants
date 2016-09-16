@@ -126,7 +126,8 @@ hr {
  #products h1,
  #contact-form h1,
  #franchise-content h1,
- #franchise-asset h1 {
+ #franchise-asset h1,
+ #contact-form-pro h1 {
  	color: #ffffff;
  	font-size: 2.2em;
  	text-align: center;
@@ -141,7 +142,8 @@ hr {
   #products h2,
   #contact-form h2,
   #franchise-content h2,
-  #franchise-asset h2 {
+  #franchise-asset h2,
+  #contact-form-pro h2 {
   	color: #ffffff;
  	  font-size: 1.2em;
  	  text-align: center;
@@ -203,14 +205,17 @@ hr {
  #contact-form h1,
  #contact-form h2,
  #franchise-content h1,
- #franchise-content h2 {
+ #franchise-content h2,
+ #contact-form-pro h1,
+ #contact-form-pro h2{
   	color:#141414;
  }
 
  #founders hr,
  #products hr,
  #contact-form hr,
- #franchise-content hr {
+ #franchise-content hr,
+ #contact-form-pro hr {
     border: 1px solid #141414;
     color: #141414;
  }
@@ -421,6 +426,10 @@ hr {
   	background: #141414;
   }
 
+  #maps iframe {
+    border: none;
+  }
+
 /**//**//**//**//**//**//**//**//**//**//**//**/
 /*PAGE | DEVENIR FRANCHISE LA FOURCHETTE*/
 /**//**//**//**//**//**//**//**//**//**//**//**/
@@ -440,7 +449,7 @@ hr {
   /*BANDEAU 2 - LES CHIFFRES CLES*/
 
 #franchise-asset {
-  background-color: #000000;
+  background-color: #141414;
   align-items: center;
   padding-bottom: 50px;
 }
@@ -455,6 +464,11 @@ hr {
   text-align: center;
   padding-top: 10px;
   color: #ffffff;
+}
+
+#contact-form-pro {
+  background-color: #FFF0C2;
+  padding-bottom: 50px;
 }
 
   /**//**//**//**/
@@ -486,7 +500,7 @@ hr {
 
 #call-to-action p {
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 #button-footer {

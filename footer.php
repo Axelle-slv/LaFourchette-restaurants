@@ -27,7 +27,7 @@
 				</div>
 
 				<div class="col-md-3 footer-content" id="call-to-action">
-					<p>©Copyright <br />Tous droits réservés <br /><a id="mentions-legales" href="#">Mentions Légales </a></p>
+					<p>©Copyright La Fourchette<br />Tous droits réservés.<br /><a id="mentions-legales" href="#">Mentions Légales </a></p>
 				</div>
 
 			</div>
