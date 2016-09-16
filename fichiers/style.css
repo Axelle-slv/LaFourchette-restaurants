@@ -55,6 +55,11 @@ hr {
 	font-weight: 500;
 }
 
+.language {
+  display: inline-block;
+  margin: 10px 0 0 0;
+}
+
 /**//**//**//**/
 /*PAGE | INDEX*/
 /**//**//**//**/
