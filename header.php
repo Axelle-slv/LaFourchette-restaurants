@@ -1,6 +1,6 @@
 <nav class="navbar navbar-default" id="index-navbar">
   <div class="container menu-nav">
-    <div class="col-xs-10 col-xs-offset-1">
+    <div class="col-xs-12 col-md-10 col-md-offset-1">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">

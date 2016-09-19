@@ -4,18 +4,18 @@
 		<div class="container">
 			<div class="col-xs-10 col-xs-offset-1">
 				
-				<div class="col-xs-12 col-md-3 footer-content">
+				<div class="col-xs-12 col-md-3">
 					<a href="index.php">
 						<img id="logo-footer" src="fichiers/images/logolafourchettewhite.png">
 					</a>
 				</div>
 				
-				<div class="col-xs-12 col-md-6 footer-content">
+				<div class="col-xs-12 col-md-6">
 					<div class="col-xs-12" id="call-to-action">
 						
 						<div class="col-xs-12 col-md-6" id="call-to-action">
 						<p>Des questions sur la franchise ?</p>
-						<a href="devenir-franchise.php"> <button id="button-footer">C'est par ici'</button></a>
+						<a href="devenir-franchise.php"><button id="button-footer">C'est par ici'</button></a>
 						</div>
 						
 						<div class="col-xs-12 col-md-6" id="call-to-action">
