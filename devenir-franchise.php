@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Les restaurants gastronomiques La Fourchette vous accueillent tous les jours entre 11h et 00h dans une ambiance cosi et intimiste. Vous découvrirez des recettes gourmandes et originales cuisinées avec des produits locaux, bio et d'une qualité exceptionnelle qui raviront vos papilles.">
- <title>Devenir franchisé | La Fourchette | Restaurants gastronomiques</title> 
+<title>Devenir franchisé | La Fourchette | Restaurants gastronomiques</title>
+<link rel="icon" type="image/png" href="fichiers/images/favico_la_fourchette_32x32.png" />
  <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
  <!-- Our stylesheet -->
@@ -15,7 +16,7 @@
 
  <body>
 
- <php include ('header.php'); ?>
+ <?php include ('menu.php'); ?>
 
  <header class="container-fluid" id="franchise-hook">
 		<div class="container">
@@ -42,30 +43,56 @@
 
 	<section class="container-fluid" id="franchise-asset">
 		<div class="container">
-			<h1>Les chiffres clés</h1>
-			<hr />
-			<h2>Lorem Ipsum</h2>
-
-				<div class="col-xs-10 col-xs-offset-1">
-					<div class="col-md-3" id="icon-asset">
-						<img src="fichiers/images/la-fourchette-developpement-fort.png">
-						<p>Une image de marque forte en plein developpement</p>
-					</div>
-					<div class="col-md-3" id="icon-asset">
-						<img src="fichiers/images/la-fourchette-rentabilite.png">
-						<p>Une rentabilité rapide</p>
-					</div>
-					<div class="col-md-3" id="icon-asset">
-						<img src="fichiers/images/icon-la-fourchette-reseau-fournisseur.png">
-						<p>Un large réseau de fournisseurs</p>
-					</div>
-					<div class="col-md-3" id="icon-asset">
-						<img src="fichiers/images/la-fourchette-chef-recette-originale.png">
-						<p>Plus de 50 recettes de saison élaborées chaque année.</p>
-					</div>
+			<div class="col-xs-10 col-xs-offset-1">
+				<h1>Parce que l'union fait la force.</h1>
+				<hr />
+				<h2>S'engager en tant que Franchisé La Fourchette, c'est bénéficer d'une forte image de marque dès le lancenent de l'activité.</h2>
+			</div>
+			
+			<div class="col-xs-10 col-xs-offset-1">
+				<div class="col-md-3" id="icon-asset">
+					<img src="fichiers/images/la-fourchette-developpement-fort.png">
+					<p>Une image de marque forte en plein developpement</p>
 				</div>
+				<div class="col-md-3" id="icon-asset">
+					<img src="fichiers/images/la-fourchette-rentabilite.png">
+					<p>Une rentabilité rapide</p>
+				</div>
+				<div class="col-md-3" id="icon-asset">
+					<img src="fichiers/images/icon-la-fourchette-reseau-fournisseur.png">
+					<p>Un large réseau de fournisseurs</p>
+				</div>
+				<div class="col-md-3" id="icon-asset">
+					<img src="fichiers/images/la-fourchette-chef-recette-originale.png">
+					<p>Plus de 50 recettes de saison élaborées chaque année.</p>
+				</div>
+			</div>
 		</div>
 	</section>
+
+	<section class="container-fluid" id="contact-form-pro">
+			<div class="container">
+				<div class="col-xs-12 col-md-10 col-md-offset-1">
+					<h1>Envie de rejoindre la famille des restaurants La Fourchette ?</h1>
+					<hr />
+					<h2>Discutons autour d'un café de votre projet, mais tout d'abord merci de remplir le formulaire ci-dessous.</h2>
+				</div>
+				<div class="col-xs-12 col-md-6 col-md-offset-3" id="formulaire-contact">
+					<form method="post">
+		                <input type="text" name="first-name" id="first-name" placeholder="Votre prénom*"/>
+		                <input type="text" name="last-name" id="last-name" placeholder="Votre nom*"/>
+		                <input type="tel" name="phone" id="phone-number" placeholder="Votre numéro de téléphone*"/>
+		                <input type="text" name="email" id="e-mail" placeholder="Votre e-mail"/>
+		                <textarea name="message" id="form-message" placeholder="Avez-vous une experience en cuisine ? Décrivez-la en quelques mots.*"></textarea>
+		                <input type="text" name="apport" id="apport" placeholder="Avez-vous un apport personnel?*"/>
+		                <input type="text" name="apport" id="e-mail" placeholder="Dans quelle ville souhaitez-vous ouvrir un restaurant?*"/>
+		                <input type="text" name="email" id="e-mail" placeholder="Avez-vous un emplacement?""/>
+		                <textarea name="message" id="form-message" placeholder="Ecrivez votre message pour La Fourchette ici."></textarea>
+		                <input type="submit" name="submit-button" id="submit" value="Envoyer mon message">
+	            	</form>
+				</div>
+			</div>
+		</section>
 
  <?php include ('footer.php'); ?>
  

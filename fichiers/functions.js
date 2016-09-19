@@ -9,7 +9,7 @@
  });
 
 $(document).ready(function() {
-    $('#header-logo a').on('click', function() { 
+    $('#header-logo a, .top a').on('click', function() { 
 			var page = $(this).attr('href'); 
 			var speed = 1400; 
 			$('html, body').animate( { scrollTop:

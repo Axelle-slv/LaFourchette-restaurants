@@ -5,13 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Les restaurants gastronomiques La Fourchette travaillent en direct avec les producteurs locaux pour sélectionner les meilleurs produits et vous proposer des plats savoureux, originaux et colorés qui vous mettront l'eau à la bouche.">
 <title>Qui sommes-nous ? | La Fourchette | Restaurants gastronomiques</title>
-  <!-- Bootstrap CSS -->
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <!-- Our stylesheet -->
- <link rel="stylesheet" href="fichiers/style.css">
-  <!-- Fonts -->
- <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Raleway:300,400,500" rel="stylesheet"> 
- </head>
+<link rel="icon" type="image/png" href="fichiers/images/favico_la_fourchette_32x32.png" />
+ <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ <!-- Our stylesheet -->
+<link rel="stylesheet" href="fichiers/style.css">
+ <!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Raleway:300,400,500" rel="stylesheet"> 
+</head>
 
  <body>
 
@@ -26,9 +27,9 @@
 
 	<section class="container-fluid" id="brand">
 		<div class="container">
-			<h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+			<h1>Une cuisine saine pleine de bonnes choses.</h1>
 			<hr />
-			<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel posuere quam. Aliquam mollis ex. </h2>
+			<h2>Nous cuisinons des produits de saison, que nous allons chercher directement chez les producteurs régionaux.</h2>
 			
 			<div class="col-xs-12 col-md-5 col-md-offset-1">
 				<p class="white-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies ligula ligula, eu porttitor mi maximus eu. Curabitur pharetra velit ac feugiat faucibus. In nec mi neque. Fusce ut libero nunc. Curabitur placerat at sapien ut sollicitudin. Integer ultricies consequat mi vitae gravida. Ut vitae sagittis massa. Aenean vel commodo nisi. Suspendisse pretium non lacus et sollicitudin. Donec volutpat at tellus id vulputate. Sed tristique tortor ut justo finibus blandit. Phasellus egestas lorem ac purus tristique condimentum. Aenean et dui aliquet, accumsan quam vel, rutrum libero. Sed eget malesuada nisi. Aliquam et odio cursus, finibus ligula id, euismod ex. Curabitur convallis massa eget enim mattis, in tincidunt ante rutrum.</p>
@@ -47,10 +48,12 @@
 
 	<section class="container-fluid" id="products">
 		<div class="container">
-			<h1>Lorem ipsum dolor sit amet, consectetur.</h1>
-			<hr />
-			<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel posuere quam. Aliquam mollis ex. </h2>
-			
+			<div class="col-xs-10 col-xs-offset-1">
+				<h1>De l'entrée au dessert, il y en a pour tous les goûts !</h1>
+				<hr />
+				<h2>Pour vous mettre l'eau à la bouche, voici une sélection de plats équilibrés et goûteux préparés par les chefs de nos sept restaurants en France.</h2>
+			</div>
+		
 			<div class="col-xs-10 col-xs-offset-1">
 				<div class="col-xs-4 meal">
 					<img src="fichiers/images/soupe-legumes-locaux-la-fourchette.jpg">
@@ -69,7 +72,7 @@
 				</div>
 			</div>
 			<div class="col-xs-10 col-xs-offset-1">
-				<p class="grey-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies ligula ligula, eu porttitor mi maximus eu. Curabitur pharetra velit ac feugiat faucibus. In nec mi neque. Fusce ut libero nunc. Curabitur placerat at sapien ut sollicitudin. Integer ultricies consequat mi vitae gravida. Ut vitae sagittis massa. Aenean vel commodo nisi. Suspendisse pretium non lacus et sollicitudin. Donec volutpat at tellus id vulputate. Sed tristique tortor ut justo finibus blandit. Phasellus egestas lorem ac purus tristique condimentum. Aenean et dui aliquet, accumsan quam vel, rutrum libero. Sed eget malesuada nisi. Aliquam et odio cursus, finibus ligula id, euismod ex. Curabitur convallis massa eget enim mattis, in tincidunt ante rutrum.</p>
+				<p class="grey-p">Nos chefs travaillent à conconcter des recettes saines et équilibrées en fonction des saisons. Notre carte, riche et évolutive, vous offre une expérience culinaire unique lors de chacune de vos visites dans l'un de nos restaurants franchisés. Toute notre équipe se met à votre disposition pour vous aider à choisir des plats se mariant à la perfection.</p>
 			</div>
 		</div>
 	</section>

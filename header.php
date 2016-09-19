@@ -1,6 +1,6 @@
 <nav class="navbar navbar-default" id="index-navbar">
   <div class="container menu-nav">
-    <div class="col-xs-10 col-xs-offset-1">
+    <div class="col-xs-12 col-md-10 col-md-offset-1">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -20,6 +20,12 @@
         <li><a href="presentation-restaurant.php">Qui sommes-nous ?</a></li>
         <li><a href="devenir-franchise.php">Devenir franchisé</a></li>
         <li><a href="contact.php">Nous contacter</a></li>
+        <li>
+          <select name="language" class="language">
+            <option value="bordeaux">FR</option>
+            <option value="chartres">EN</option>
+          </select>  
+        </li>
       </ul>
     </div><!-- /.navbar-collapse -->
     </div><!-- /col-xs-10 -->

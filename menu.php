@@ -15,11 +15,18 @@
       </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">      
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+     
       <ul class="nav navbar-nav navbar-right">
         <li><a href="presentation-restaurant.php">Qui sommes-nous ?</a></li>
         <li><a href="devenir-franchise.php">Devenir franchisé</a></li>
         <li><a href="contact.php">Nous contacter</a></li>
+        <li>
+          <select name="language" class="language">
+            <option value="bordeaux">FR</option>
+            <option value="chartres">EN</option>
+          </select>  
+        </li>
       </ul>
     </div><!-- /.navbar-collapse -->
     </div><!-- /col-xs-10 -->

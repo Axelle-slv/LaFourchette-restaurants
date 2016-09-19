@@ -55,13 +55,17 @@ hr {
 	font-weight: 500;
 }
 
+.language {
+  display: inline-block;
+  margin: 10px 0 0 0;
+}
+
 /**//**//**//**/
 /*PAGE | INDEX*/
 /**//**//**//**/
 
 /* HEADER */
 #img-header-index,
-#next-opening,
 #who-hook,
 #contact-hook,
 #franchise-hook,
@@ -80,11 +84,28 @@ hr {
 	width: 100%;
 	padding-top: 240px;
 }
+@media screen and (max-width: 1000px) {
+  #header-logo {
+    padding-top: 190px;
+  }
+}
+
+
 
 #header-logo #logo-fourchette {
 	width: 450px;
 	display: block;
 	margin: 0 auto;
+}
+@media screen and (max-width: 1000px) {
+  #header-logo #logo-fourchette {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 360px) {
+  #header-logo #logo-fourchette {
+    width: 290px;
+  }
 }
 
 #header-logo h1 {
@@ -94,6 +115,16 @@ hr {
 	text-align: center;
 	padding-top: 50px;
 	font-family: 'Raleway', sans-serif;
+}
+@media screen and (max-width: 1000px) {
+  #header-logo h1 {
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 360px) {
+  #header-logo h1 {
+    padding-top: 20px;
+  }
 }
 
 #header-logo h1 span,
@@ -106,7 +137,7 @@ hr {
 	color: #FFC800;
 }
 
-#arrow {
+.arrow {
   display: block;
   margin: 20px auto 0 auto;
   width: 30px;
@@ -127,7 +158,8 @@ hr {
  #products h1,
  #contact-form h1,
  #franchise-content h1,
- #franchise-asset h1 {
+ #franchise-asset h1,
+ #contact-form-pro h1 {
  	color: #ffffff;
  	font-size: 2.2em;
  	text-align: center;
@@ -142,7 +174,8 @@ hr {
   #products h2,
   #contact-form h2,
   #franchise-content h2,
-  #franchise-asset h2 {
+  #franchise-asset h2,
+  #contact-form-pro h2 {
   	color: #ffffff;
  	  font-size: 1.2em;
  	  text-align: center;
@@ -192,6 +225,10 @@ hr {
   clear: both;
  }
  
+ #founders {
+  padding-bottom: 20px;
+ }
+
  #founders h1,
  #founders h2,
  #founders h3,
@@ -200,14 +237,17 @@ hr {
  #contact-form h1,
  #contact-form h2,
  #franchise-content h1,
- #franchise-content h2 {
+ #franchise-content h2,
+ #contact-form-pro h1,
+ #contact-form-pro h2{
   	color:#141414;
  }
 
  #founders hr,
  #products hr,
  #contact-form hr,
- #franchise-content hr {
+ #franchise-content hr,
+ #contact-form-pro hr {
     border: 1px solid #141414;
     color: #141414;
  }
@@ -223,7 +263,15 @@ hr {
   margin: 0 auto;
   border: 5px solid #ffffff;
   border-radius: 135px;
-  width: 260px;
+  width: 220px;
+ }
+ 
+ .founder-name{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.3em;
+  display: block;
+  margin-bottom: 20px;
  }
  
  .grey-p {
@@ -232,21 +280,27 @@ hr {
 
  /*BANDEAU 4 - NEXT OPENING*/
 
- #next-opening{
- 	background-image: url('images/dessert-fruits-restaurant-la-fourchette.jpg');
- 	height: 500px;
+ #next-opening {
+ 	background-color: #FFFFFF;
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 50px;
  }
 
  #next-opening h1,
  #next-opening h2 {
- 	color: #FFffff;
+ 	color: #141414;
  }
 
  #next-opening hr {
- 	  border: 1px solid #ffffff;
-    color: #FFffff;
+ 	  border: 1px solid #141414;
+    color: #141414;
  }
 
+#carousel-example-generic h3 {
+  font-family: 'Dancing Script', cursive;
+}
+  
   /**//**//**//**//**//**//**//**//**//**//**//**/
   /*PAGE | PRESENTATION RESTAURANT LA FOURCHETTE*/
   /**//**//**//**//**//**//**//**//**//**//**//**/
@@ -404,6 +458,10 @@ hr {
   	background: #141414;
   }
 
+  #maps iframe {
+    border: none;
+  }
+
 /**//**//**//**//**//**//**//**//**//**//**//**/
 /*PAGE | DEVENIR FRANCHISE LA FOURCHETTE*/
 /**//**//**//**//**//**//**//**//**//**//**//**/
@@ -420,11 +478,12 @@ hr {
   background-image: url('images/planche-bois-la-fourchette-restaurant.png');
 }
 
-  /*BANDEAU 2 - LES ATOUTS DE LA FRANCHISE*/
+  /*BANDEAU 2 - LES CHIFFRES CLES*/
 
 #franchise-asset {
-  background-color: #000000;
+  background-color: #141414;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 #icon-asset img {
@@ -437,6 +496,11 @@ hr {
   text-align: center;
   padding-top: 10px;
   color: #ffffff;
+}
+
+#contact-form-pro {
+  background-color: #FFF0C2;
+  padding-bottom: 50px;
 }
 
   /**//**//**//**/
@@ -461,32 +525,43 @@ hr {
 
 #logo-footer {
   display: block;
-  height: 50px;
+  width: 180px;
   margin-bottom: 10px;
   margin-right: 15px;
+}
+
+@media screen and (max-width: 1000px){
+  #logo-footer {
+    margin: 0 auto 10px auto;
+  }
+}
+
+#call-to-action p {
+  text-align: center;
+  font-size: 0.9em;
 }
 
 #button-footer {
   display:block;
   width: 100px;
-  margin-bottom: 10px;
   border-radius: 20px;
   color: #ffffff;
   font-weight:500;
   background: #FFC800;
-  font-size: 1em;
-  line-height: 20px;
+  font-size: 0.8em;
+  line-height: 10px;
   padding:5px;
   text-decoration: none;
   border: 0px;
+  margin: 0 auto 10px auto;
+  }
+
+#button-footer:hover {
+    background: #ffffff;
   }
 
 #mentions-legales {
   text-decoration: none;
   color: #FFC800;
 }
-
-#button-footer:hover {
-    background: #ffffff;
-  }
 
